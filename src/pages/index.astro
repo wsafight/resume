@@ -1,0 +1,201 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <section>
+    <header>联系方式</header>
+    <main>
+      <ul>
+        <li>手机：<a href="tel:15*******13">15*******13</a></li>
+        <li>微信： xxxxx</li>
+        <li>邮箱：<a href="mailto:xxxx@qq.com">xxxx@qq.com</a></li>
+      </ul>
+    </main>
+  </section>
+  <section>
+    <header>个人信息</header>
+    <main>
+      <ul>
+        <li>王*/1995年/男/北京海淀</li>
+        <li>本科/计算机科学与技术</li>
+        <li>工作年限：x年</li>
+      </ul>
+    </main>
+  </section>
+  <section>
+    <header>技能清单</header>
+    <ol>
+      <li>熟练掌握HTML5、CSS3新特性</li>
+      <li>
+        有扎实的 JavaScript（ECMAScript，DOM，BOM）基础，熟练掌握 TypeScript
+        等语言，熟练使用 ES5/ES6 新特性….
+      </li>
+      <li>精通主流前端开发框架，能用 Vue，React 技术栈进行大型项目开发</li>
+      <li>
+        掌握页面的响应式布局，rem 布局和百分比布局，对移动端的页面布局有着一定的经验
+      </li>
+      <li>
+        对 OOP 和 FP 开发有自己的理解，了解常见的设计模式。对前端工程化，性能优化有丰富的经验
+      </li>
+      <li>熟练掌握 Node/PHP 等后端语言，熟练使用 Nest， MySql 进行业务开发</li>
+      <li>熟练 SQL，数据库表设计。对 MySQL 数据库设计有项目经验</li>
+    </ol>
+  </section>
+
+  <section>
+    <header>工作经历</header>
+    <div>
+      <div class="work">上海爱用科技股份有限公司(2021-04 ~ 2024-09)</div>
+      <div class="project">
+        <a href="https://www.aiyongtech.com/jiaoyi_ataobao/">爱用交易</a>
+      </div>
+      <div class="introduce">项目简介：</div>
+      <div class="content">
+        爱用交易是一款全方位帮助中小卖家的店铺订单管理软件、打单发货神器及交易管理工具。解决打印、发货、评价、进销存等问题，并支持淘宝、抖音、拼多多、1688、快手、视频号小店、小红书等电商平台。其中淘宝活跃用户
+        60 多万，付费用户近 30 万。
+      </div>
+      <div class="introduce">项目架构：</div>
+      <div class="content">
+        前端使用 React 和 Taro 技术栈，后端使用 Java，Mongodb，ES，Sharding-JDBC
+        处理用户，订单，打印等模块。使用 PHP/phalcon 和 Nodejs/Nest
+        处理短信、发货、评价、运营等模块。
+      </div>
+      <div class="introduce">职责（2022-04 ~ 2024-09）：</div>
+      <div class="content">
+        担任爱用交易项目技术负责人（10
+        人技术团队），负责产品迭代，团队培养，攻坚克难，以及部分运维工作。在期间内将
+        PHP 逐步转为 Node 技术栈。处理打印模块技术迁移。
+      </div>
+      <div class="introduce">职责（2021-04 ~ 2022-04）：</div>
+      <div class="content">
+        担任爱用交易项目全栈工程师，迭代开发，处理核心问题，协助团队其他成员以及代码审查工作。
+      </div>
+    </div>
+
+    <div class="works">
+      <div class="work">华宇万户医疗科技有限公司(2020-07 ~ 2021-03)</div>
+      <div class="project">arsenal 低代码平台</div>
+      <div class="introduce">项目简介：</div>
+      <div class="content">
+        为公司内部开发动态拖拉设计器和业务组件，以便业务方可以快速实现功能。
+      </div>
+      <div class="introduce">项目架构：</div>
+      <div class="content">
+        后端使用 Java， GraphQL 等技术，前端利用 react, umi, React DND
+        等技术，实现拖拽以及数组配置组件，每一层可以自行决定渲染不同的组件。
+      </div>
+      <div class="introduce">职责：</div>
+      <div class="content">
+        负责参与需求分析的讨论与开发编辑器和查询器，辅助其他团队进行业务开发与优化。
+      </div>
+    </div>
+
+    <div class="works">
+      <div class="work">杭州瑞软科技有限公司（2017-02 ~ 2020-06）</div>
+      <div class="project">
+        <a href="https://www.sowtrading.com/login.html"
+          >明日旺管理系统（外贸云平台）</a
+        >
+      </div>
+      <div class="introduce">项目简介：</div>
+      <div class="content">
+        为小微型企业打造的符合国情的进销存内部 ERP Sass
+        管理系统，可以根据不同的商家业务动态定制数据模型，基于实际业务场景动态组合对小微企业中的伙伴、产品、内贸、外销、出口、进口、盘点、门店等进行提供服务。也为客户提供各色单据与合同打印。
+      </div>
+      <div class="introduce">项目架构：</div>
+      <div class="content">
+        前端使用 Vue，ElementUI，TypeScript 基于模块搭建多页面应用程序，后端使用
+        Spring，MySql
+        进行业务开发。前端提取不易变的业务组件，基础服务分离到到多个库中，通过
+        nginx 动态引入
+        js，提升开发效率，减少组件编译时间，提升体验，提取各个打印模块，登陆模块等业务性较弱模块为单独微件，独立开发，不会影响主工程，也可以为将来其他业务线提供复用。
+      </div>
+      <div class="introduce">职责：</div>
+      <div class="content">
+        参与需求分析的讨论，独立负责整个前端项目（从零开始）。
+      </div>
+      <div class="project">明日旺助手(小程序)</div>
+      <div class="introduce">项目简介：</div>
+      <div class="content">
+        明日旺 PC 端的移动版本，有
+        产品，伙伴，销售，采购，库存，收付款等大部分核心功能,
+        可进行动态查询，动态输入，解决真实场景中大部分企业用户不能够人手一个电脑的问题。实现了对具有门店的商家提供快速创建销售单，对有库存的商家提供快速盘点等业务服务，同时可以利用小程序转发功能提供各类单据和产品目录的分享。
+      </div>
+      <div class="introduce">项目架构：</div>
+      <div class="content">
+        前端使用原生小程序，后端部分复用 java。部分使用云开发。同时也利用
+        koa,puppeteer 无头浏览器开发小程序单据打印服务。在小程序端生成 pdf
+        以供用户下载。
+      </div>
+      <div class="introduce">职责：</div>
+      <div class="content">负责小程序和 Node 方面的开发与交付</div>
+    </div>
+  </section>
+  <section>
+    <header>自我评价</header>
+    <ul>
+      <li>
+        软件技术毕业，编程基础扎实，7 年 web 前端开发经验，2 年项目管理经验
+      </li>
+      <li>
+        热爱开源，<a href="https://github.com/wsafight">github 个人项目</a>有
+        300+ star
+      </li>
+      <li>
+        善于思考总结，发布过 50 多篇 <a
+          href="https://segmentfault.com/u/jump_and_jump/articles">技术博客</a
+        >
+      </li>
+      <li>性格随和，好相处，重配合，有团队精神，善于沟通</li>
+    </ul>
+  </section>
+  <section class="thanks">
+    <header>致谢</header>
+    <div>感谢您花时间阅读我的简历，期待有机会和您共事</div>
+  </section>
+</Layout>
+
+<style is:global>
+  header {
+    font-size: 28px;
+    border-bottom: 1px solid rgb(209, 217, 224);
+  }
+  main {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  li + li {
+    margin-top: 6px;
+  }
+  .thanks div {
+    margin-top: 8px;
+  }
+  .works {
+    margin-top: 20px;
+  }
+  .work {
+    color: black;
+    font-size: 24px;
+  }
+  .project {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .introduce {
+    margin-top: 6px;
+  }
+
+  .content {
+    margin-top: 6px;
+    text-indent: 2cap;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+</style>
